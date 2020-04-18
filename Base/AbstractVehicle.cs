@@ -26,6 +26,26 @@ namespace Base
             this.colour = colour;
         }
 
+        public void CleanInterior()
+        {
+            Console.WriteLine("Cleaning Interior...");
+        }
+
+        public void CleanExterior()
+        {
+            Console.WriteLine("Cleaning Exterior...");
+        }
+
+        public void PolishWindows()
+        {
+            Console.WriteLine("Polishing Windows...");
+        }
+
+        public void TakeForTestDrive()
+        {
+            Console.WriteLine("Taking for Test Drive...");
+        }
+
         public virtual int Price { get; }
 
         public override string ToString()
