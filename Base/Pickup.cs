@@ -14,5 +14,7 @@ namespace Base
             : base(engine, colour)
         {
         }
+
+        public override int Price => 9000;
     }
 }

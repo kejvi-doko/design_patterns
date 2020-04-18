@@ -25,9 +25,12 @@ namespace Base
         {
             this.colour = colour;
         }
+
+        public virtual int Price { get; }
+
         public override string ToString()
         {
-            return this.GetType().Name + " (" + engine + ", " + colour + ")";
+            return this.GetType().Name + " (" + engine + ", " + colour +", " + Price+")";
         }
         public virtual Object Clone()
         {

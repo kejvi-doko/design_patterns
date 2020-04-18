@@ -13,5 +13,6 @@ namespace Base
 
         public Sport(IEngine engine, VehicleColour colour):base(engine,colour) { }
 
+        public override int Price => 8000;
     }
 }
