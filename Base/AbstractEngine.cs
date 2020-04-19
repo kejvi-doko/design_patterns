@@ -36,6 +36,11 @@ namespace Base
             }
         }
 
+        public virtual void Diagnose(IDiagnosticTool tool)
+        {
+            tool.RunDiagnostic(this);
+        }
+
         private int size;
         private bool turbo;
         private bool running;

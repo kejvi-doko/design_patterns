@@ -11,5 +11,6 @@ namespace Base
         void Stop();
         void IncreasePower();
         void DecreasePower();
+        void Diagnose(IDiagnosticTool tool);
     }
 }
